@@ -28,4 +28,5 @@ deep_sort_dir = os.path.join(path_dir, "deep_sort")
 label = "person"
 
 # define threshold confidence to filter weak detections
-yolo_thres_confidence = 0.9
+# Specific to feature branch
+yolo_thres_confidence = 0.8
